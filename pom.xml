@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.headwire.aemc</groupId>
-	<artifactId>aemcompanion</artifactId>
+	<artifactId>aemc-files</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
-	<name>AEM Companion</name>
-	<description>Create templates, components, models, osgi, etc ... AEM Maven project structure.</description>
+	<name>AEM Companion Files</name>
+	<description>Provides template structure for AEM Companion.</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,32 +24,6 @@
 	<prerequisites>
 		<maven>3.2.5</maven>
 	</prerequisites>
-
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>commons-io</groupId>
-				<artifactId>commons-io</artifactId>
-				<version>2.4</version>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.commons</groupId>
-				<artifactId>commons-lang3</artifactId>
-				<version>3.4</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-
-	<dependencies>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-		</dependency>
-	</dependencies>
 
 	<build>
 		<pluginManagement>
@@ -138,25 +112,6 @@
 
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-dependency-plugin</artifactId>
-					<version>2.10</version>
-					<executions>
-						<execution>
-							<id>copy-dependencies</id>
-							<phase>prepare-package</phase>
-							<goals>
-								<goal>copy-dependencies</goal>
-							</goals>
-							<configuration>
-								<!--outputDirectory>${project.build.outputDirectory}/lib</outputDirectory-->
-								<outputDirectory>${project.build.directory}/lib</outputDirectory>
-							</configuration>
-						</execution>
-					</executions>
-				</plugin>
-
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>2.6</version>
 					<configuration>
@@ -169,45 +124,6 @@
 						</archive>
 					</configuration>
 				</plugin>
-
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-source-plugin</artifactId>
-					<version>2.4</version>
-					<inherited>true</inherited>
-					<executions>
-						<execution>
-							<id>attach-sources</id>
-							<goals>
-								<goal>jar</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
-
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-assembly-plugin</artifactId>
-					<version>2.6</version>
-			        <executions>
-			            <execution>
-			                <phase>package</phase>
-			                <goals>
-			                    <goal>single</goal>
-			                </goals>
-			            </execution>
-			        </executions>
-			        <configuration>
-						<archive>
-							<manifest>
-								<mainClass>com.headwire.aemc.companion.RunnableCompanion</mainClass>
-							</manifest>
-						</archive>
-						<descriptorRefs>
-				          <descriptorRef>jar-with-dependencies</descriptorRef>
-				        </descriptorRefs>
-			        </configuration>
-				</plugin>			
 
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -226,18 +142,6 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>xml-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-			</plugin>			
 		</plugins>
 	</build>
   

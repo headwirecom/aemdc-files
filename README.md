@@ -6,9 +6,12 @@ Please modify configuration for your needs
  
 	/aemc-files/aemc-placeholders/config.properties
 	
-Please modify templates, components, osgi templates for your needs under
+Please modify templates, components, osgi, models, services and servlets templates for your needs under
  
-	/aemc-files/aemc-placeholders/apps/project/templates
-	/aemc-files/aemc-placeholders/apps/project/components
-	/aemc-files/aemc-placeholders/apps/project/config
+	/aemc-files/aemc-placeholders/content/src/main/content/jcr_root/apps/project/templates
+	/aemc-files/aemc-placeholders/content/src/main/content/jcr_root/apps/project/components
+	/aemc-files/aemc-placeholders/content/src/main/content/jcr_root/apps/project/config
+	/aemc-files/aemc-placeholders/bundle/src/main/java/com/adobe/acs/samples/models
+	/aemc-files/aemc-placeholders/bundle/src/main/java/com/adobe/acs/samples/services
+	/aemc-files/aemc-placeholders/bundle/src/main/java/com/adobe/acs/samples/servlets
 

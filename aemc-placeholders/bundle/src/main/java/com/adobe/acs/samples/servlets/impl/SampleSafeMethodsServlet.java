@@ -18,7 +18,7 @@
  * #L%
  */
 
-package com.adobe.acs.samples.servlets.impl;
+package {{ java-package }};
 
 import org.apache.felix.scr.annotations.Properties;
 import org.apache.felix.scr.annotations.Property;
@@ -45,8 +45,8 @@ import java.io.OutputStream;
         selectors = { "print.a4", "print" }, // Ignored if paths is set
         extensions = { "html" } // Ignored if paths is set
 )
-public class SampleSafeMethodsServlet extends SlingSafeMethodsServlet implements OptingServlet {
-    private static final Logger log = LoggerFactory.getLogger(SampleSafeMethodsServlet.class);
+public class {{ java-class }} extends SlingSafeMethodsServlet implements OptingServlet {
+    private static final Logger log = LoggerFactory.getLogger({{ java-class }}.class);
     private static final int FOUR_KB = 4096;
 
     /**

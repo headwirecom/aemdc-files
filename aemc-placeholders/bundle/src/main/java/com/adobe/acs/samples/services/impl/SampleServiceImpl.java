@@ -18,7 +18,7 @@
  * #L%
  */
 
-package com.adobe.acs.samples.services.impl;
+package {{ java-package }};
 
 import com.adobe.acs.samples.services.SampleService;
 import org.apache.felix.scr.annotations.Activate;
@@ -53,7 +53,7 @@ import java.util.Map;
     )
 })
 @Service
-public class SampleServiceImpl implements SampleService {
+public class {{ java-class }} implements SampleService {
     private static final Logger log = LoggerFactory.getLogger(SampleServiceImpl.class);
 
     /* OSGi Properties */

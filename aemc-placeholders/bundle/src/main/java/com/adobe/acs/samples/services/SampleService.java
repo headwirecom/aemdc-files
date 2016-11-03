@@ -18,12 +18,12 @@
  * #L%
  */
 
-package com.adobe.acs.samples.services;
+package {{ java-package }};
 
 import org.apache.sling.api.resource.PersistenceException;
 import org.apache.sling.api.resource.ResourceResolver;
 
-public interface SampleService {
+public interface {{ java-class }} {
 
     // PROP_NAME is used by the SampleMultiReferenceServiceImpl
     String PROP_NAME = "service-name";

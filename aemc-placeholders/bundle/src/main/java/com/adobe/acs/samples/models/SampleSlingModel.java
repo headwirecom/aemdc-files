@@ -18,7 +18,7 @@
  * #L%
  */
 
-package com.adobe.acs.samples.models;
+package  {{ java-package }};
 
 import com.day.cq.search.PredicateGroup;
 import com.day.cq.search.Query;
@@ -57,7 +57,7 @@ import java.util.Map;
  *
  */
 @Model(adaptables=Resource.class)
-public class SampleSlingModel {
+public class {{ java-class }} {
 
     // Inject a property whose name does NOT match the Model field name
     @Inject @Named("jcr:title")

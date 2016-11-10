@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.headwire.aemc</groupId>
-	<artifactId>aemc-files</artifactId>
+	<groupId>com.headwire.aemdc</groupId>
+	<artifactId>aemdc-files</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
-	<name>AEM Companion Files</name>
-	<description>Provides template/components structure for AEM Companion.</description>
+	<name>AEM Developer Companion Files</name>
+	<description>Provides template/components structure for AEM Developer Companion.</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

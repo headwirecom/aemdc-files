@@ -9,7 +9,7 @@
 	<packaging>pom</packaging>
 
 	<name>AEM Developer Companion Files</name>
-	<description>Provides template/components structure for AEM Developer Companion.</description>
+	<description>Provides templates for AEM templates, components, models, osgi, etc... used in the AEM Developer Companion.</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -9,7 +9,7 @@ Please modify templates, components, osgi, editable templates structure, models,
 	/aemdc-files/placeholders/content/src/main/content/jcr_root/apps/project/components
 	/aemdc-files/placeholders/content/src/main/content/jcr_root/apps/project/config
 	/aemdc-files/placeholders/content/src/main/content/jcr_root/conf
-	/aemdc-files/placeholders/bundle/src/main/java/com/adobe/acs/samples/models
-	/aemdc-files/placeholders/bundle/src/main/java/com/adobe/acs/samples/services
-	/aemdc-files/placeholders/bundle/src/main/java/com/adobe/acs/samples/servlets
+	/aemdc-files/placeholders/bundle/src/main/java/com/headwire/aemdc/samples/models
+	/aemdc-files/placeholders/bundle/src/main/java/com/headwire/aemdc/samples/services
+	/aemdc-files/placeholders/bundle/src/main/java/com/headwire/aemdc/samples/servlets
 

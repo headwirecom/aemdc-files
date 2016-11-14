@@ -24,31 +24,27 @@ public class {{ java-class }} implements SampleService {
 
   private static final Logger LOG = LoggerFactory.getLogger({{ java-class }}.class);
 
-  private String title;
-
   @Reference
   private ResourceResolverFactory resourceResolverFactory;
 
   @Override
-  public final void doWork() {
-    ResourceResolver resourceResolver;
+  public String getPropValue() {
+    ResourceResolver resourceResolver = null;
+    String myPropValue = null;
     try {
       resourceResolver = resourceResolverFactory.getServiceResourceResolver(null);
-
       final Resource resource = resourceResolver.getResource("/content/geometrixx");
       final ModifiableValueMap properties = resource.adaptTo(ModifiableValueMap.class);
-      title = (String) properties.getOrDefault("jcr:title", "");
+      myPropValue = (String) properties.getOrDefault("myProp", "");
 
     } catch (final LoginException e) {
       LOG.error("Can't get service resource resolver.");
+    } finally {
+      if (resourceResolver != null && resourceResolver.isLive()) {
+        resourceResolver.close();
+      }
     }
-  }
-
-  /**
-   * @return the title
-   */
-  public String getTitle() {
-    return title;
+    return myPropValue;
   }
 
   @Activate

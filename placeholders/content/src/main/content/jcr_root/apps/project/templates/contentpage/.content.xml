@@ -3,10 +3,13 @@
     jcr:primaryType="cq:Template"
     jcr:title="{{ jcr:title }}"
     jcr:description="{{ jcr:description }}"
+    ranking="{{ ranking }}"
+    allowedPaths="[{{ allowedPaths }}]"
     {{ ph_1_1 }}
-    ranking="{{ ranking }}">
+    >
     <jcr:content
         jcr:primaryType="cq:PageContent"
+        sling:resourceType="{{ sling:resourceType }}"
         {{ ph_1_2 }}
-        sling:resourceType="{{ sling:resourceType }}"/>
+        />
 </jcr:root>

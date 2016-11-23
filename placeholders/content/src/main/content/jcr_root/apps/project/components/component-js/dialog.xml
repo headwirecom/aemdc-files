@@ -4,11 +4,8 @@
     title="{{ jcr:title }}"
     xtype="panel">
     <items jcr:primaryType="cq:WidgetCollection">
-        <field1
-            jcr:primaryType="cq:Widget"
-            fieldDescription="{{ fieldDescription1 }}"
-            fieldLabel="{{ fieldLabel1 }}"
-            name="./hero"
-            xtype="textfield"/>
+       	
+       	<!-- add your fields here -->
+
     </items>
 </jcr:root>

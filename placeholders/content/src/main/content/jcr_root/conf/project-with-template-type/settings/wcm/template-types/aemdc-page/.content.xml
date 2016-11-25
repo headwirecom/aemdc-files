@@ -4,7 +4,7 @@
     jcr:primaryType="cq:Template"
     ranking="{{ ranking }}">
     <jcr:content
-        jcr:description="{{ jcr:description }}"
+        jcr:description="{{ aemdc-page-description }}"
         jcr:primaryType="cq:PageContent"
-        jcr:title="{{ jcr:title }}"/>
+        jcr:title="{{ aemdc-page-title }}"/>
 </jcr:root>

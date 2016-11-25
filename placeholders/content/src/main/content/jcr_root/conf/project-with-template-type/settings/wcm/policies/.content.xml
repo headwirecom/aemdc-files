@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
-    jcr:primaryType="cq:Page"/>
+    jcr:primaryType="cq:Page">
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:description="Policy of the default page"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Default Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[wcm.foundation.components.page.responsive]"/>
+                </page>
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:description="Policy of the default root parsys"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Default Layout Container"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:{{ componentGroup }},/libs/dam/cfm/components/contentfragment,/libs/wcm/foundation/components/responsivegrid]"/>
+                    <contentparsys
+                        jcr:description="Policy of the content parsys"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Layout Container Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:{{ componentGroup }}"/>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>

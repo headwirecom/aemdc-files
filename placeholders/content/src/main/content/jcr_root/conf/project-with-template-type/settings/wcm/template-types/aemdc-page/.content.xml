@@ -2,9 +2,9 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     jcr:mixinTypes="[mix:lockable]"
     jcr:primaryType="cq:Template"
-    ranking="{Long}1">
+    ranking="{{ ranking }}">
     <jcr:content
-        jcr:description="Template for a AEMDC HTML5 content page."
+        jcr:description="{{ jcr:description }}"
         jcr:primaryType="cq:PageContent"
-        jcr:title="AEMDC HTML5 Page"/>
+        jcr:title="{{ jcr:title }}"/>
 </jcr:root>

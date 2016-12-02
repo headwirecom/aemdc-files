@@ -2,10 +2,12 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="/conf/my-aem-project/settings/wcm/templates/.*"
-        cq:designPath="/etc/designs/my-aem-project"
-        cq:template="/conf/my-aem-project/settings/wcm/templates/landingpage"
         jcr:primaryType="cq:PageContent"
-        jcr:title="my-aem-project"
-        sling:resourceType="/apps/my-aem-project/components/page"/>
+        jcr:title="{{ jcr:title }}"
+        cq:template="{{ cq:template }}"
+        sling:resourceType="{{ sling:resourceType }}"
+        cq:allowedTemplates="{{ cq:allowedTemplates }}"
+        cq:designPath="{{ cq:designPath }}"
+        {{ ph_1_2 }}
+        />
 </jcr:root>

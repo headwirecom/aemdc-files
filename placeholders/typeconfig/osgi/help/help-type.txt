@@ -1,0 +1,1 @@
+    osgi        Osgi config to be created.

@@ -1,1 +1,1 @@
-    component Component to be created.
+    component   Component to be created.

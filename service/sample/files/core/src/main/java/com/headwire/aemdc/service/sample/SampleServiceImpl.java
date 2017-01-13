@@ -15,8 +15,6 @@ import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.headwire.aemdc.samples.services.SampleService;
-
 
 @Component(label = "My AEM Service", description = "My AEM Service implementation", metatype = false)
 @Service

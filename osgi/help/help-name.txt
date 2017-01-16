@@ -1,1 +1,1 @@
-    Source OSGI file name under ../config folder.
+    Source OSGI template name.

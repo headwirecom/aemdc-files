@@ -18,9 +18,9 @@ import org.slf4j.LoggerFactory;
 
 @Component(label = "My AEM Service", description = "My AEM Service implementation", metatype = false)
 @Service
-public class {{ java-class }} implements SampleService {
+public class {{ java-class }}Impl implements {{ java-class }} {
 
-  private static final Logger LOG = LoggerFactory.getLogger({{ java-class }}.class);
+  private static final Logger LOG = LoggerFactory.getLogger({{ java-class }}Impl.class);
 
   @Reference
   private ResourceResolverFactory resourceResolverFactory;

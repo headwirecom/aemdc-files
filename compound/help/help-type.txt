@@ -1,1 +1,1 @@
-    compound   Set of different templates to be created.
+    compound    Set of different templates to be created.

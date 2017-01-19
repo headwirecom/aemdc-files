@@ -1,1 +1,1 @@
-    Target osgi service PID file name.
+    Target osgi service PID file name w/o extension.

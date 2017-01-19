@@ -1,1 +1,1 @@
-    Source editable templates config folder name.
+    Source editable templates structure template name.

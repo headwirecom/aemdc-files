@@ -1,1 +1,1 @@
-    Source content page name under ../content folder.
+    Source content page template name.

@@ -5,5 +5,5 @@
     componentGroup=".hidden"
     jcr:title="{{ jcr:title }}"
     jcr:description="{{ jcr:description }}"
-    {{ ph_1_1 }}
+    {{ ph_component-page_1 }}
 />

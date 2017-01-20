@@ -5,5 +5,5 @@
     jcr:title="{{ jcr:title }}"
     jcr:description="{{ jcr:description }}"
     componentGroup="{{ componentGroup }}"
-    {{ ph_1_1 }}
+    {{ ph_component-js_1 }}
 />

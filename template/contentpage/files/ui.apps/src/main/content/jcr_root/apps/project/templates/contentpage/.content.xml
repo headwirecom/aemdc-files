@@ -5,11 +5,11 @@
     jcr:description="{{ jcr:description }}"
     ranking="{{ ranking }}"
     allowedPaths="[{{ allowedPaths }}]"
-    {{ ph_1_1 }}
+    {{ ph_contentpage_1 }}
     >
     <jcr:content
         jcr:primaryType="cq:PageContent"
         sling:resourceType="{{ sling:resourceType }}"
-        {{ ph_1_2 }}
+        {{ ph_contentpage_2 }}
         />
 </jcr:root>

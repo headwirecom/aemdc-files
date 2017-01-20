@@ -8,6 +8,6 @@
         sling:resourceType="{{ sling:resourceType }}"
         cq:allowedTemplates="{{ cq:allowedTemplates }}"
         cq:designPath="{{ cq:designPath }}"
-        {{ ph_1_2 }}
+        {{ ph_siteroot_2 }}
         />
 </jcr:root>

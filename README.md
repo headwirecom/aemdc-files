@@ -5,6 +5,7 @@ AEM Developer Companion Files (AEMDC Files) used as templates for AEM Developer 
 Checkout and customize AEM template, component, osgi, editable templates structure, content page, model, service and servlet template types under
  
 	/aemdc-files/component
+	/aemdc-files/compound
 	/aemdc-files/confstr
 	/aemdc-files/model
 	/aemdc-files/osgi

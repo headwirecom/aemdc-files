@@ -1,0 +1,3 @@
+This is a service template type.
+Select template and fill placeholders fields out as you need.
+Placeholders are used in the service definition.

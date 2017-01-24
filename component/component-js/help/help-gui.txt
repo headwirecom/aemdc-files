@@ -1,0 +1,3 @@
+Template for AEM Content Component based on JavaScript.
+Fill placeholders fields out as you need.
+Placeholders are used in the component definition.

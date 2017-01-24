@@ -1,0 +1,3 @@
+This is an AEM Component template type.
+Select component template and fill placeholders fields out as you need.
+Placeholders are used in the component definition.

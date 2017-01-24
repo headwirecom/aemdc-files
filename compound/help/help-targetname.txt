@@ -1,1 +1,1 @@
-    Target AEM component name.
+    Target compound resource name.

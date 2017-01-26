@@ -1,3 +1,10 @@
-This is a AEM Template template type.
-Select template and fill placeholders fields out as you need.
-Placeholders are used in the AEM template definition.
+<h3>AEM Template creation</h3>
+
+choose one of the child nodes to create a template
+<p>
+    <h4></h4>
+        </p>
+
+<p>
+    <h4></h4>
+        </p>

@@ -1,3 +1,11 @@
-This is a AEM content page template type.
-Select template and fill placeholders fields out as you need.
-Placeholders are used in the content page definition.
+<h3>AEM Page creation</h3>
+
+choose one of the child nodes to create a content page
+
+<p>
+    <h4></h4>
+        </p>
+
+<p>
+    <h4></h4>
+        </p>

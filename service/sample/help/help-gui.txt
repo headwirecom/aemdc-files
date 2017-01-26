@@ -1,0 +1,3 @@
+create an osgi service
+
+Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

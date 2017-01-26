@@ -1,3 +1,4 @@
-Template for AEM Content Component based on JavaScript.
-Fill placeholders fields out as you need.
-Placeholders are used in the component definition.
+Create a component with a JavaScript backend
+
+Provide placeholders as needed. Default values will be used
+derived from the 'Target Name'.

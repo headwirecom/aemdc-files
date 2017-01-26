@@ -1,0 +1,9 @@
+Create a component with a sling model as backend
+
+Provide placeholders as needed. Default values will be used derived from the 'Target Name'.
+
+The sling model will not be created automatically.
+
+Use
+- 'model:resourcemodel' to create the model
+- 'compound:component-and-model' to create component and model

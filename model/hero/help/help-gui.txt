@@ -1,0 +1,3 @@
+create a WCMUsePojo
+
+Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

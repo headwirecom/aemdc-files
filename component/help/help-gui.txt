@@ -1,3 +1,14 @@
-This is an AEM Component template type.
-Select component template and fill placeholders fields out as you need.
-Placeholders are used in the component definition.
+<h3>AEM Components</h3>
+choose one of the child nodes to create a component
+<p>
+    <h4>component-js</h4>
+        an HTL component backed by a javascript file for it's logic
+        </p>
+        <p>
+        <h4>component-model</h4>
+        an HTL component backed by a sling model class for it's logic
+        </p>
+        <p>
+    <h4>component-page</h4>
+        a basic HTL component to back a page template
+        </p>

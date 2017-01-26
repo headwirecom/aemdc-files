@@ -1,3 +1,11 @@
-This is a servlet template type.
-Select template and fill placeholders fields out as you need.
-Placeholders are used in the servlet definition.
+<h3>Servlets</h3>
+
+choose one of the child nodes to create a template
+
+<p>
+    <h4></h4>
+        </p>
+
+<p>
+    <h4></h4>
+        </p>

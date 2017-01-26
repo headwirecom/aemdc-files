@@ -1,3 +1,11 @@
-This is a service template type.
-Select template and fill placeholders fields out as you need.
-Placeholders are used in the service definition.
+<h3>Services</h3>
+
+choose one of the child nodes to create a service
+
+<p>
+    <h4></h4>
+        </p>
+
+<p>
+    <h4></h4>
+        </p>

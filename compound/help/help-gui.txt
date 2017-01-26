@@ -1,3 +1,8 @@
-This is an compound template type.
-Select template and fill placeholders fields out as you need.
-Placeholders are used in the compound resource definition.
+<h3>aemdc compound actions</h3>
+
+compound actions execute multiple other templates from aemdc. Select one of the templates from the tree
+
+<p>
+    <h4>component-and-model</h4>
+            wrapper for component/component-model and model/sling
+        </p>

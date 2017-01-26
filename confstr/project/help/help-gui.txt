@@ -1,0 +1,4 @@
+create the configuration structure necessary to use the
+template editor
+
+Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

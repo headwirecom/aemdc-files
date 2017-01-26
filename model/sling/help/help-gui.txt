@@ -1,0 +1,3 @@
+create a sling model adaptable from a resource
+
+Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

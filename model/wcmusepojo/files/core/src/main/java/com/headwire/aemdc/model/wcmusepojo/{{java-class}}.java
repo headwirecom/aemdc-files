@@ -5,20 +5,20 @@ import com.adobe.cq.sightly.WCMUsePojo;
 
 public class {{ java-class }} extends WCMUsePojo {
 
-  private String hero;
+  private String text;
 
   @Override
   public void activate() throws Exception {
-    hero = getProperties().get("hero", "No text saved");
+    hero = getProperties().get("text", "No text saved");
   }
 
   /**
-   * Get hero text
+   * Get text
    *
-   * @return hero
+   * @return text
    */
-  public String getHero() {
-    return this.hero;
+  public String getText() {
+    return this.text;
   }
 
 }

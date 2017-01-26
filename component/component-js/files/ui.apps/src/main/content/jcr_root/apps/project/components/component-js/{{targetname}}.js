@@ -5,7 +5,7 @@ use(function () {
     var compObj = {};
 
     // Add your code here.
-    compObj.text = "No text saved";
+    compObj.text = granite.resource.properties['text'];
 
     return compObj;
 });

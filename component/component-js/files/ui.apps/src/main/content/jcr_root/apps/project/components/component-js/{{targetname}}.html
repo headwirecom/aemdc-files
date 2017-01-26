@@ -1,1 +1,1 @@
-<div data-sly-use.compObj="{{ targetname }}.js">Add your HTML code here.</div>
+<div data-sly-use.compObj="{{ targetname }}.js">${compObj.text ? compObj.text : (wcmmode.edit || wcmmode.preview ? "No text saved":"")}</div>

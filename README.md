@@ -16,6 +16,7 @@ Checkout and customize AEM template, component, osgi, editable templates structu
 
 You can also create your own new template type for your needs.
 
-# AEMDC supported versions
+# AEM & AEMDC supported versions
 
+- AEMDC Files templates provided for AEM 6.2
 - AEMDC since v.0.10.1 (https://github.com/headwirecom/aemdc/releases/tag/v0.10.1)

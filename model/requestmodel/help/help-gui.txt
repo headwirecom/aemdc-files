@@ -1,0 +1,3 @@
+create a request model adaptable from a sling http servlet request
+
+Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

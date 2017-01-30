@@ -9,9 +9,10 @@ import org.apache.sling.models.annotations.Model;
 
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
+import {{ java-interface-package }}.{{ java-class }};
 
 
-@Model(adaptables = SlingHttpServletRequest.class)
+@Model(adaptables = SlingHttpServletRequest.class, adapters = {{ java-class }}.class)
 public class {{ java-class }}Impl implements {{ java-class }} {
 
   private final SlingHttpServletRequest request;

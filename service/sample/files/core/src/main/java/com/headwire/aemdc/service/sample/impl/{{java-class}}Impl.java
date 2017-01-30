@@ -14,6 +14,7 @@ import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceResolverFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import {{ java-interface-package }}.{{ java-class }};
 
 
 @Component(label = "My AEM Service", description = "My AEM Service implementation", metatype = false)

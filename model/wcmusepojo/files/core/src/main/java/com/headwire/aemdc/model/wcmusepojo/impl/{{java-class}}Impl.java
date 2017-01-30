@@ -1,6 +1,7 @@
 package {{ java-package }};
 
 import com.adobe.cq.sightly.WCMUsePojo;
+import {{ java-interface-package }}.{{ java-class }};
 
 
 public class {{ java-class }}Impl extends WCMUsePojo implements {{ java-class }} {

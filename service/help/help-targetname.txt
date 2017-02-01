@@ -1,1 +1,1 @@
-    Target service java class subpackage name.
+    Target service java class name w/o extention.

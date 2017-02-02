@@ -1,0 +1,3 @@
+create a sling post processor servlet
+
+Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

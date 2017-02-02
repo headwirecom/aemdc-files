@@ -23,7 +23,7 @@ public class {{ java-class }}Impl implements {{ java-class }} {
   }
 
   @PostConstruct
-  private void setup() {
+  private void postConstructMethod() {
     final Resource resource = request.getResource();
     final ResourceResolver resourceResolver = resource.getResourceResolver();
     final PageManager pageManager = resourceResolver.adaptTo(PageManager.class);

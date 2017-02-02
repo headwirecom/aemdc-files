@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 
 
 @SlingServlet(label = "My AEM Servlet", description = "My AEM Servlet description", paths = {
-    "/bin/myaemservlet" }, methods = { "GET" }, extensions = { "html" })
+    "/bin/myaemservlet" }, methods = { "GET" }, resourceTypes = { }, selectors = { }, extensions = { "html" })
 public class {{ java-class }} extends SlingSafeMethodsServlet {
 
   private static final long serialVersionUID = 1L;

@@ -1,1 +1,1 @@
-    Target service java class name w/o extention.
+    Target service java class name w/o extension.

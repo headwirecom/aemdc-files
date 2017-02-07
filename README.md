@@ -20,4 +20,4 @@ You can also create your own new template type for your needs.
 # AEM & AEMDC supported versions
 
 - AEMDC Files templates provided for AEM 6.2
-- AEMDC since v.0.10.2
+- AEMDC since v.0.10.2 (https://github.com/headwirecom/aemdc/releases/tag/v0.10.2)

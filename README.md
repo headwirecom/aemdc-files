@@ -12,6 +12,7 @@ Checkout and customize AEM template, component, osgi, editable templates structu
 	/aemdc-files/osgi
 	/aemdc-files/page
 	/aemdc-files/service
+	/aemdc-files/serviceuser
 	/aemdc-files/servlet
 	/aemdc-files/template
 

@@ -1,7 +1,8 @@
-    systemUser=<value>
+    systemUser=<SYSTEMUSER-VALUE>
         System User name for the service
     jcr:uuid=<value>
-        Generated UUID of the system user.
+        Generated UUID of the system user. The the jcr:uuid can be using the following code:
+        UUID uid = UUID.nameUUIDFromBytes(<SYSTEMUSER-VALUE>.getBytes());
     <placeholder name>=<value>
         Placeholder used in the osgi config definition.
     <properties placeholder set name>:<property name>=<property value>

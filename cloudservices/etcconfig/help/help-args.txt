@@ -1,0 +1,13 @@
+     jcr:title=<value>
+           The Title for the component
+     systemUser=<value>
+           The system user
+     serviceUrl=<value>
+           The service url that contains more information about the cloud services.
+     ranking=<value>
+           The ranking of the component
+     description=<value>
+            The description of the configuration service
+     descriptionExtended=<value>
+            The extended description of the configuration service
+

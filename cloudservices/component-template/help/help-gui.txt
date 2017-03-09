@@ -1,0 +1,3 @@
+Create the Cloud services component template
+
+Provide placeholders as needed.

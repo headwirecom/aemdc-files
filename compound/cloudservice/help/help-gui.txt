@@ -1,0 +1,5 @@
+Create a cloud service based on own template and component
+
+Provide placeholders as needed. Default values will be used derived from the 'Target Name'.
+
+this action executes 'cloudservices:component-template', 'cloudservices:component-page' and 'cloudservices:etcconfig'.

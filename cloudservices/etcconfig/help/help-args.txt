@@ -10,4 +10,3 @@
             The description of the configuration service
      descriptionExtended=<value>
             The extended description of the configuration service
-

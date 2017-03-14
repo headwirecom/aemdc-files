@@ -1,1 +1,1 @@
-    cloudservices        Cloud Service to be created.
+    cloudservices Cloud Service to be created.

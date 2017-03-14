@@ -1,1 +1,1 @@
-    serviceuser        Service User to be created.
+    serviceuser Service User to be created.

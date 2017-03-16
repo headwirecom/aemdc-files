@@ -1,1 +1,1 @@
-    Target AEM component/model java class subpackage name.
+    Target AEM component name / model java class name w/o extension.

@@ -1,3 +1,0 @@
-Create a Service User
-
-Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

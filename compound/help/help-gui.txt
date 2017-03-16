@@ -1,6 +1,6 @@
-<h3>aemdc compound actions</h3>
+<h3>AEMDC compound actions</h3>
 
-compound actions execute multiple other templates from aemdc. Select one of the templates from the tree
+Compound actions execute multiple other templates from aemdc. Select one of the templates from the tree
 
 <p>
     <h4>component-and-model</h4>

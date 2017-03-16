@@ -1,3 +1,8 @@
-create a Sling REQUEST filter
+Create a Sling filter with REQUEST scope
+
+Request filters are called once per request hitting Sling from the outside.
+These filters are called after the resource addressed by the request URL and the
+Servlet or script to process the request has been resolved before the COMPONENT filters
+(if any) and the Servlet or script are called.
 
 Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

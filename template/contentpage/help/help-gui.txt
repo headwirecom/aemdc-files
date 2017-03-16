@@ -1,3 +1,3 @@
-create an AEM template
+Create an AEM template for a content page
 
 Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

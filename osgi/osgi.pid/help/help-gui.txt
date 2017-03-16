@@ -1,8 +1,8 @@
-create an osgi configuration node
+Create an OSGi configuration node
 
 Provide placeholders as needed. Default values will be used derived from the 'Target Name'.
 
-sample values to create a logger:
+Sample values to create a logger:
 
 Target Name: org.apache.sling.commons.log.LogManager.factory.config-loggername
 ph_osgi.pid_1

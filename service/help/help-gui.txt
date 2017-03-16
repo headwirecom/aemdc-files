@@ -1,11 +1,8 @@
 <h3>Services</h3>
 
-choose one of the child nodes to create a service
+Choose one of the child nodes to create a service
 
 <p>
-    <h4></h4>
-        </p>
-
-<p>
-    <h4></h4>
-        </p>
+	<h4>sample</h4>
+	A basic boilerplate OSGi service
+</p>

@@ -1,10 +1,14 @@
-<h3>Sling Models</h3>
-
-choose one of the child nodes to create a template
+<h3>AEM Components</h3>
+Choose one of the child nodes to create a Model.
 <p>
-    <h4></h4>
-        </p>
-
+	<h4>requestmodel</h4>
+	A Sling model class adaptable from a Sling request.
+</p>
 <p>
-    <h4></h4>
-        </p>
+	<h4>resourcemodel</h4>
+	A Sling model class adaptable from a Sling resource.
+</p>
+<p>
+	<h4>wcmusepojo</h4>
+	An alternative to Sling Models for HTL which extends the WCMUsePojo class.
+</p>

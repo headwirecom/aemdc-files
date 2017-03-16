@@ -1,10 +1,8 @@
 <h3>OSGi Configutations</h3>
 
-choose one of the child nodes to create a template
-<p>
-    <h4></h4>
-        </p>
+Choose one of the child nodes to create an OSGi Configuration
 
 <p>
-    <h4></h4>
-        </p>
+	<h4>osgi.pid</h4>
+	Creates an OSGi configuration XML file
+</p>

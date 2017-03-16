@@ -1,14 +1,14 @@
 <h3>AEM Components</h3>
-choose one of the child nodes to create a component
+Choose one of the child nodes to create a component
 <p>
     <h4>component-js</h4>
-        an HTL component backed by a javascript file for it's logic
+        An HTL component backed by a javascript file for its logic
         </p>
         <p>
         <h4>component-model</h4>
-        an HTL component backed by a sling model class for it's logic
+        An HTL component backed by a sling model class for its logic
         </p>
         <p>
     <h4>component-page</h4>
-        a basic HTL component to back a page template
+        A basic HTL component to back a page template
         </p>

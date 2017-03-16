@@ -1,3 +1,7 @@
-create a Sling INCLUDE filter
+Create a Sling filter with INCLUDE scope
+
+Include filters are called upon calling the RequestDispatcher.include method
+after the included resource and the Servlet or script to process the include
+have been resolved before the Servlet or script is called.
 
 Provide placeholders as needed. Default values will be used derived from the 'Target Name'.

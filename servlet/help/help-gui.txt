@@ -1,11 +1,28 @@
 <h3>Servlets</h3>
 
-choose one of the child nodes to create a template
+Choose one of the child nodes to create a servlet
 
 <p>
-    <h4></h4>
-        </p>
+	<h4>allmethods</h4>
+	Servlet with access to all available HTTP methods, including those that modify data (PUT/POST/DELETE).
+</p>
 
 <p>
-    <h4></h4>
-        </p>
+	<h4>felix</h4>
+	Servlet that is registered to the Felix HTTP Whiteboard and exists outside of Sling (with no access to Sling/AEM contexts).
+</p>
+
+<p>
+	<h4>safemethods</h4>
+	Servlet that is restricted to read-only HTTP methods.
+</p>
+
+<p>
+	<h4>slingpostprocessor</h4>
+	Service that is called after a POST operation of the default SlingPostServlet but before changes are persisted to the repository.
+</p>
+
+<p>
+	<h4>wrappedresponse</h4>
+	Wrapper for adding functionality to an HTTP servlet response.
+</p>

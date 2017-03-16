@@ -1,11 +1,8 @@
 <h3>AEM Page creation</h3>
 
-choose one of the child nodes to create a content page
+Choose one of the child nodes to create a content page
 
 <p>
-    <h4></h4>
-        </p>
-
-<p>
-    <h4></h4>
-        </p>
+	<h4>siteroot</h4>
+	Create a page that will be the root of a content tree in AEM
+</p>

@@ -1,13 +1,13 @@
-<h3>config structure</h3>
+<h3>Config Structure</h3>
 
-the provided templates create the necessary structure to allow you to work with the template editor
+The provided templates create the necessary structure to allow you to work with the template editor
 
 <p>
     <h4>project</h4>
-            creates the necessary structure for the template editor
+            Creates the necessary structure for the template editor
         </p>
 
 <p>
     <h4>project-with-template-type</h4>
-            creates the necessary structure for the template editor and defines an initial template type
+            Creates the necessary structure for the template editor and defines an initial template type
         </p>

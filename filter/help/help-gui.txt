@@ -1,11 +1,23 @@
 <h3>Filters</h3>
 
-choose one of the child nodes to create a template
+Choose one of the child nodes to create a filter.
 
 <p>
-    <h4></h4>
-        </p>
+	<h4>servlet</h4>
+	A generic servlet filter that does not use the Sling filter annotation. This allows it to be executed before Sling filters and to be registered to URL path patterns. However, it does not have any access to the Sling or AEM contexts.
+</p>
 
 <p>
-    <h4></h4>
-        </p>
+    <h4>slinginclude</h4>
+    A sling filter that is called upon calling the RequestDispatcher.include method after the included resource and the Servlet or script to process the include have been resolved before the Servlet or script is called.
+</p>
+
+<p>
+	<h4>slingrequest</h4>
+	A sling filter that is called once per request hitting Sling from the outside. These filters are called after the resource addressed by the request URL and the Servlet or script to process the request has been resolved before the COMPONENT filters (if any) and the Servlet or script are called.
+</p>
+
+<p>
+	<h4>threadlocal</h4>
+	A Sling Filter which sets ThreadLocal state AND an OSGi service that exposes the ThreadLocal state to other OSGi Services.
+</p>

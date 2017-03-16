@@ -1,3 +1,13 @@
-create a servlet filter
+Create a Servlet Filter
+
+"Felix" Filters are different from Sling Filters,
+in that they are executed by Apache Felix before the Sling Engine is engaged.
+
+This allows for:
+- Processing a request before Sling Authentication and Resource Resolution has occurs.
+
+This prevents:
+- Understanding accessing any Sling Context; Permissions, Resource Resolution, etc.
+
 
 Provide placeholders as needed. Default values will be used derived from the 'Target Name'.
